@@ -20,16 +20,4 @@ body {
   margin: 0;
   padding: 0;
   text-rendering: optimizeSpeed;
-  @include responsive(tablet) {
-    background-color: red;
-  }
-  @include responsive(laptop) {
-    background-color: blue;
-  }
-  @include responsive(laptop-lg) {
-    background-color: green;
-  }
-  @include responsive(desktop) {
-    background-color: yellow;
-  }
 }

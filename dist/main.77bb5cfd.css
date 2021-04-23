@@ -354,26 +354,6 @@ body {
   padding: 0;
   text-rendering: optimizeSpeed;
 }
-@media only screen and (min-width: 600px) {
-  body {
-    background-color: red;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  body {
-    background-color: blue;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  body {
-    background-color: green;
-  }
-}
-@media only screen and (min-width: 1920px) {
-  body {
-    background-color: yellow;
-  }
-}
 
 /**
 * Basic typography style for copy text
