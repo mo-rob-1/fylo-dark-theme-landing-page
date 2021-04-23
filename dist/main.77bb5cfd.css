@@ -352,7 +352,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #7d9bdb;
   text-rendering: optimizeSpeed;
 }
 @media only screen and (min-width: 600px) {
