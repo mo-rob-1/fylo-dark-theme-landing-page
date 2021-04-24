@@ -358,5 +358,45 @@ body {
 /**
 * Basic typography style for copy text
 */
+.header__nav-list {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.header {
+  background-color: #1c2431;
+}
+.header__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  padding: 1.2rem;
+}
+.header__nav-list {
+  padding: 0;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  float: right;
+  text-align: right;
+  gap: 1rem;
+}
+@media only screen and (min-width: 375px) {
+  .header__nav-list {
+    gap: 2rem;
+  }
+}
+.header__nav-list-item {
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+.header__logo-container {
+  display: grid;
+  align-items: center;
+}
+.header__logo {
+  width: 100px;
+}
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

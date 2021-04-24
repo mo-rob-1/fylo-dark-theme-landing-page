@@ -1,1 +1,35 @@
 @use '../abstracts' as *;
+
+.header {
+  background-color: $intro-and-email-sign-up-bg;
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding: 1.2rem;
+  }
+  &__nav-list {
+    padding: 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    float: right;
+    text-align: right;
+    gap: 1rem;
+    @include responsive(mobile) {
+      gap: 2rem;
+    }
+  }
+  &__nav-list-item {
+    list-style-type: none;
+    font-size: 0.9rem;
+  }
+  &__logo-container {
+    display: grid;
+    align-items: center;
+  }
+  &__logo {
+    width: 100px;
+  }
+}

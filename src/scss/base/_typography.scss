@@ -2,3 +2,8 @@
 * Basic typography style for copy text
 */
 @use '../abstracts' as *;
+
+.header__nav-list {
+  font-family: $secondaryFont;
+  color: $white;
+}
