@@ -5,5 +5,30 @@
 
 .header__nav-list {
   font-family: $secondaryFont;
+}
+.header__nav-link {
   color: $white;
+}
+
+.intro__heading,
+.intro__paragraph {
+  color: $white;
+}
+
+.intro__heading {
+  font-family: $secondaryFont;
+  line-height: 1.5;
+}
+.intro__paragraph {
+  font-family: $primaryFont;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  max-width: 290px;
+  margin: 0 auto;
+}
+.intro__btn {
+  color: $white;
+  font-family: $secondaryFont;
+  font-weight: 700;
+  font-size: 0.9rem;
 }

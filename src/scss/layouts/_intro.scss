@@ -1,0 +1,28 @@
+@use '../abstracts' as *;
+
+.intro {
+  background-color: $intro-and-email-sign-up-bg;
+  background-image: url("/images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 200% 570px;
+  &__image {
+    width: 100%;
+    padding: 1.2rem;
+    position: relative;
+    z-index: 1;
+  }
+  &__curvy {
+    width: 100%;
+    position: relative;
+    top: 1rem;
+  }
+  &__heading {
+    margin-top: 0;
+  }
+  &__desc-container {
+    background-color: $dark-blue-main-bg;
+    text-align: center;
+    padding: 1.2rem 1.2rem 2.5rem 1.2rem;
+  }
+}

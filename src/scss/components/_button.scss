@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+.intro__btn {
+  border: none;
+  background-image: linear-gradient(to right, $cyan-cta, $blue-cta);
+  width: 15rem;
+  margin-top: 1.8rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
