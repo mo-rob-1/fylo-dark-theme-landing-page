@@ -408,6 +408,25 @@ body {
   font-size: 0.9rem;
 }
 
+.cta__title,
+.cta__desc {
+  color: white;
+}
+
+.cta__title {
+  font-family: "Raleway", sans-serif;
+}
+
+.cta__desc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.cta__link {
+  font-family: "Open Sans", sans-serif;
+}
+
 .header {
   background-color: #1c2431;
 }
@@ -487,9 +506,31 @@ body {
 }
 .features__container {
   text-align: center;
-  padding: 6rem 1.2rem;
+  padding: 6rem 1.2rem 3rem 1.2rem;
   display: grid;
   gap: 6rem;
+}
+
+.cta {
+  background-color: #181f2a;
+}
+.cta__container {
+  padding: 6rem 1.2rem;
+}
+.cta__image {
+  width: 100%;
+  margin-bottom: 2.2rem;
+}
+.cta__link-container {
+  display: inline;
+  border-bottom: 1px solid #65e2d9;
+  padding-bottom: 8px;
+}
+.cta__link-arrow-icon {
+  margin-left: 0.2rem;
+  object-fit: contain;
+  position: relative;
+  top: 3px;
 }
 
 .intro__btn {
@@ -500,6 +541,12 @@ body {
   padding: 1rem;
   border-radius: 3rem;
   cursor: pointer;
+}
+
+.cta__link {
+  color: #65e2d9;
+  font-size: 0.8rem;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

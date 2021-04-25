@@ -1,0 +1,7 @@
+@use '../abstracts' as *;
+
+.cta__link {
+  color: $cyan-cta;
+  font-size: 0.8rem;
+  text-decoration: none;
+}

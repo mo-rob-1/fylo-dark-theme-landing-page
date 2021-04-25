@@ -1,0 +1,23 @@
+@use '../abstracts' as *;
+
+.cta {
+  background-color: $dark-blue-main-bg;
+  &__container {
+    padding: 6rem 1.2rem;
+  }
+  &__image {
+    width: 100%;
+    margin-bottom: 2.2rem;
+  }
+  &__link-container {
+    display: inline;
+    border-bottom: 1px solid $cyan-cta;
+    padding-bottom: 8px;
+  }
+  &__link-arrow-icon {
+    margin-left: 0.2rem;
+    object-fit: contain;
+    position: relative;
+    top: 3px;
+  }
+}
