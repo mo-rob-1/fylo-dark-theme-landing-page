@@ -391,6 +391,23 @@ body {
   font-size: 0.9rem;
 }
 
+.features__title,
+.features__desc {
+  color: white;
+}
+
+.features__title {
+  font-family: "Raleway", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.features__desc {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
 .header {
   background-color: #1c2431;
 }
@@ -463,6 +480,16 @@ body {
   background-color: #181f2a;
   text-align: center;
   padding: 1.2rem 1.2rem 2.5rem 1.2rem;
+}
+
+.features {
+  background-color: #181f2a;
+}
+.features__container {
+  text-align: center;
+  padding: 6rem 1.2rem;
+  display: grid;
+  gap: 6rem;
 }
 
 .intro__btn {

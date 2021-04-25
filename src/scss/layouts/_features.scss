@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+.features {
+  background-color: $dark-blue-main-bg;
+  &__container {
+    text-align: center;
+    padding: 6rem 1.2rem;
+    display: grid;
+    gap: 6rem;
+  }
+}

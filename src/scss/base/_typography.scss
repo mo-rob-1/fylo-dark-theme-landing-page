@@ -32,3 +32,18 @@
   font-weight: 700;
   font-size: 0.9rem;
 }
+
+.features__title,
+.features__desc {
+  color: $white;
+}
+.features__title {
+  font-family: $secondaryFont;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+.features__desc {
+  font-family: $primaryFont;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
