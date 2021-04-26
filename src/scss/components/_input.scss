@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+.sign-up__input {
+  font-family: $primaryFont;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.sign-up__input::placeholder {
+  font-size: 0.7rem;
+  color: rgb(136, 136, 136);
+}

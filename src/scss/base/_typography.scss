@@ -26,7 +26,9 @@
   max-width: 290px;
   margin: 0 auto;
 }
-.intro__btn {
+
+.intro__btn,
+.sign-up__btn {
   color: $white;
   font-family: $secondaryFont;
   font-weight: 700;
@@ -69,4 +71,17 @@
   color: $white;
   font-size: 0.8rem;
   line-height: 1.8;
+}
+
+.sign-up__title,
+.sign-up__desc {
+  color: $white;
+}
+.sign-up__title {
+  font-family: $secondaryFont;
+}
+.sign-up__desc {
+  font-family: $primaryFont;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }

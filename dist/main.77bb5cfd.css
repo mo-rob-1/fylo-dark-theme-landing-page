@@ -384,7 +384,8 @@ body {
   margin: 0 auto;
 }
 
-.intro__btn {
+.intro__btn,
+.sign-up__btn {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -432,6 +433,21 @@ body {
   color: white;
   font-size: 0.8rem;
   line-height: 1.8;
+}
+
+.sign-up__title,
+.sign-up__desc {
+  color: white;
+}
+
+.sign-up__title {
+  font-family: "Raleway", sans-serif;
+}
+
+.sign-up__desc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .header {
@@ -585,20 +601,62 @@ body {
   left: 0.6rem;
 }
 
-.intro__btn {
+.sign-up {
+  background-color: #181f2a;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 3rem;
+}
+.sign-up__container {
+  background-color: #1c2431;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-up__title {
+  margin-top: 0;
+}
+.sign-up__form {
+  margin-top: 2rem;
+}
+
+.intro__btn,
+.sign-up__btn {
   border: none;
   background-image: linear-gradient(to right, #65e2d9, #339ecc);
-  width: 15rem;
-  margin-top: 1.8rem;
   padding: 1rem;
   border-radius: 3rem;
   cursor: pointer;
+}
+
+.intro__btn {
+  width: 15rem;
+  margin-top: 1.8rem;
+}
+
+.sign-up__btn {
+  width: 100%;
+  margin-top: 1.4rem;
 }
 
 .cta__link {
   color: #65e2d9;
   font-size: 0.8rem;
   text-decoration: none;
+}
+
+.sign-up__input {
+  font-family: "Open Sans", sans-serif;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.sign-up__input::placeholder {
+  font-size: 0.7rem;
+  color: #888888;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

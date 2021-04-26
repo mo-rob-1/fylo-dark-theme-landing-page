@@ -1,0 +1,21 @@
+@use '../abstracts' as *;
+
+.sign-up {
+  background-color: $dark-blue-main-bg;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 3rem;
+  &__container {
+    background-color: $intro-and-email-sign-up-bg;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  &__title {
+    margin-top: 0;
+  }
+  &__form {
+    margin-top: 2rem;
+  }
+}
