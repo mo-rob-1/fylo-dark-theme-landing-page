@@ -6,6 +6,12 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 200% 570px;
+  &__image-container {
+    @include responsive(tablet) {
+      margin: 0 auto;
+      max-width: 400px;
+    }
+  }
   &__image {
     width: 100%;
     padding: 1.2rem;
@@ -24,5 +30,9 @@
     background-color: $dark-blue-main-bg;
     text-align: center;
     padding: 1.2rem 1.2rem 2.5rem 1.2rem;
+    @include responsive(tablet) {
+      margin: 0 auto;
+      max-width: 500px;
+    }
   }
 }

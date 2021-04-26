@@ -7,6 +7,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     padding: 1.2rem;
+    @include responsive(tablet) {
+      padding: 2rem;
+    }
   }
   &__nav-list {
     padding: 0;

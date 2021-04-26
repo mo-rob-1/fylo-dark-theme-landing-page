@@ -25,6 +25,9 @@
   font-size: 0.9rem;
   max-width: 290px;
   margin: 0 auto;
+  @include responsive(tablet) {
+    max-width: 350px;
+  }
 }
 
 .intro__btn,
