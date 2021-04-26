@@ -85,3 +85,23 @@
   font-size: 0.8rem;
   line-height: 1.6;
 }
+
+.footer__container {
+  font-family: $primaryFont;
+  color: $white;
+  font-size: 0.9rem;
+}
+.footer__location-desc {
+  line-height: 1.6;
+}
+.footer__contact-phone-number,
+.footer__contact-email-address,
+.footer__list-item-link {
+  color: $white;
+  text-decoration: none;
+}
+.footer__contact-phone-number:hover,
+.footer__contact-email-address:hover,
+.footer__list-item-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+@use '../abstracts' as *;
+
+.fab {
+  border: 1px solid $white;
+  border-radius: 100%;
+  padding: 0.6rem;
+}

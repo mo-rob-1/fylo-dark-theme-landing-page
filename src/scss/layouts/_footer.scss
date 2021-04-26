@@ -1,1 +1,57 @@
+@use '../abstracts' as *;
 
+.footer {
+  background-color: $dark-blue-footer-bg;
+  &__container {
+    padding: 15rem 1.2rem;
+    padding-bottom: 3rem;
+  }
+  &__location {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  &__location-icon {
+    object-fit: contain;
+    align-self: flex-start;
+    position: relative;
+    top: 0.4rem;
+  }
+  &__location-desc {
+    margin-top: 0;
+    margin-left: 1.3rem;
+    width: 80%;
+  }
+  &__contact-phone-icon,
+  &__contact-email-icon {
+    position: relative;
+    top: 0.2rem;
+  }
+  &__contact-phone-wrapper {
+    margin-bottom: 1.5rem;
+  }
+  &__contact-phone-number,
+  &__contact-email-address {
+    margin-left: 0.9rem;
+  }
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 2.5;
+  }
+  &__socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+  }
+  &__icon-wrapper {
+    margin-right: 1rem;
+  }
+  &__icon-wrapper:nth-child(3) {
+    margin-right: 0;
+  }
+  &__container-2 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}

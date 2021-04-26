@@ -450,6 +450,29 @@ body {
   line-height: 1.6;
 }
 
+.footer__container {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer__location-desc {
+  line-height: 1.6;
+}
+
+.footer__contact-phone-number,
+.footer__contact-email-address,
+.footer__list-item-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__contact-phone-number:hover,
+.footer__contact-email-address:hover,
+.footer__list-item-link:hover {
+  text-decoration: underline;
+}
+
 .header {
   background-color: #1c2431;
 }
@@ -560,7 +583,7 @@ body {
   background-color: #181f2a;
 }
 .testimonial__container {
-  padding: 4rem 2.4rem 10rem 2.4rem;
+  padding: 4rem 2.4rem 0.1rem 2.4rem;
 }
 .testimonial__main-review-container {
   display: grid;
@@ -613,12 +636,68 @@ body {
   padding: 2rem;
   border-radius: 0.4rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  top: 13rem;
 }
 .sign-up__title {
   margin-top: 0;
 }
 .sign-up__form {
   margin-top: 2rem;
+}
+
+.footer {
+  background-color: #0b1523;
+}
+.footer__container {
+  padding: 15rem 1.2rem;
+  padding-bottom: 3rem;
+}
+.footer__location {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.footer__location-icon {
+  object-fit: contain;
+  align-self: flex-start;
+  position: relative;
+  top: 0.4rem;
+}
+.footer__location-desc {
+  margin-top: 0;
+  margin-left: 1.3rem;
+  width: 80%;
+}
+.footer__contact-phone-icon, .footer__contact-email-icon {
+  position: relative;
+  top: 0.2rem;
+}
+.footer__contact-phone-wrapper {
+  margin-bottom: 1.5rem;
+}
+.footer__contact-phone-number, .footer__contact-email-address {
+  margin-left: 0.9rem;
+}
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2.5;
+}
+.footer__socials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+.footer__icon-wrapper {
+  margin-right: 1rem;
+}
+.footer__icon-wrapper:nth-child(3) {
+  margin-right: 0;
+}
+.footer__container-2 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .intro__btn,
@@ -631,7 +710,7 @@ body {
 }
 
 .intro__btn {
-  width: 15rem;
+  width: 16rem;
   margin-top: 1.8rem;
 }
 
@@ -657,6 +736,12 @@ body {
 .sign-up__input::placeholder {
   font-size: 0.7rem;
   color: #888888;
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 0.6rem;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
