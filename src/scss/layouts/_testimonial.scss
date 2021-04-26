@@ -1,1 +1,46 @@
 @use '../abstracts' as *;
+
+.testimonial {
+  background-color: $dark-blue-main-bg;
+  &__container {
+    padding: 4rem 2.4rem 10rem 2.4rem;
+  }
+  &__main-review-container {
+    display: grid;
+    gap: 2rem;
+  }
+  &__review-container {
+    background-color: $dark-blue-testimonial-bg;
+    padding: 1.6rem;
+    border-radius: 0.4rem;
+    z-index: 1;
+  }
+  &__review {
+    margin: 0;
+  }
+  &__profile-container {
+    display: flex;
+    margin-top: 1.4rem;
+  }
+  &__profile-name-container {
+    margin-left: 0.7rem;
+  }
+  &__profile-img-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  &__profile-img {
+    border-radius: 50%;
+    width: 36px;
+  }
+  &__profile-name {
+    margin: 0;
+  }
+  &__quote-icon {
+    width: 24px;
+    position: relative;
+    top: 0.4rem;
+    left: 0.6rem;
+  }
+}

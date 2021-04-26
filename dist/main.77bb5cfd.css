@@ -427,6 +427,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.testimonial__review-container {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
 .header {
   background-color: #1c2431;
 }
@@ -531,6 +538,51 @@ body {
   object-fit: contain;
   position: relative;
   top: 3px;
+}
+
+.testimonial {
+  background-color: #181f2a;
+}
+.testimonial__container {
+  padding: 4rem 2.4rem 10rem 2.4rem;
+}
+.testimonial__main-review-container {
+  display: grid;
+  gap: 2rem;
+}
+.testimonial__review-container {
+  background-color: #202a3c;
+  padding: 1.6rem;
+  border-radius: 0.4rem;
+  z-index: 1;
+}
+.testimonial__review {
+  margin: 0;
+}
+.testimonial__profile-container {
+  display: flex;
+  margin-top: 1.4rem;
+}
+.testimonial__profile-name-container {
+  margin-left: 0.7rem;
+}
+.testimonial__profile-img-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.testimonial__profile-img {
+  border-radius: 50%;
+  width: 36px;
+}
+.testimonial__profile-name {
+  margin: 0;
+}
+.testimonial__quote-icon {
+  width: 24px;
+  position: relative;
+  top: 0.4rem;
+  left: 0.6rem;
 }
 
 .intro__btn {
