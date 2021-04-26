@@ -413,6 +413,11 @@ body {
   line-height: 1.6;
   font-size: 0.9rem;
 }
+@media only screen and (min-width: 600px) {
+  .features__desc {
+    font-size: 0.8rem;
+  }
+}
 
 .cta__title,
 .cta__desc {
@@ -422,11 +427,22 @@ body {
 .cta__title {
   font-family: "Raleway", sans-serif;
 }
+@media only screen and (min-width: 600px) {
+  .cta__title {
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
+}
 
 .cta__desc {
   font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
   line-height: 1.6;
+}
+@media only screen and (min-width: 600px) {
+  .cta__desc {
+    font-size: 0.8rem;
+  }
 }
 
 .cta__link {
@@ -447,6 +463,11 @@ body {
 
 .sign-up__title {
   font-family: "Raleway", sans-serif;
+}
+@media only screen and (min-width: 600px) {
+  .sign-up__title {
+    font-size: 1.5rem;
+  }
 }
 
 .sign-up__desc {
@@ -578,6 +599,15 @@ body {
   display: grid;
   gap: 6rem;
 }
+@media only screen and (min-width: 600px) {
+  .features__container {
+    padding: 6rem 2rem 3rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
 
 .cta {
   background-color: #181f2a;
@@ -585,9 +615,29 @@ body {
 .cta__container {
   padding: 6rem 1.2rem;
 }
+@media only screen and (min-width: 600px) {
+  .cta__container {
+    padding: 5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 2rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .cta__image-container {
+    display: grid;
+    align-self: center;
+  }
+}
 .cta__image {
   width: 100%;
   margin-bottom: 2.2rem;
+}
+@media only screen and (min-width: 600px) {
+  .cta__image {
+    margin-bottom: 0;
+  }
 }
 .cta__link-container {
   display: inline;
@@ -610,6 +660,12 @@ body {
 .testimonial__main-review-container {
   display: grid;
   gap: 2rem;
+}
+@media only screen and (min-width: 600px) {
+  .testimonial__main-review-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 .testimonial__review-container {
   background-color: #202a3c;
@@ -661,6 +717,12 @@ body {
   position: relative;
   top: 13rem;
 }
+@media only screen and (min-width: 600px) {
+  .sign-up__container {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+}
 .sign-up__title {
   margin-top: 0;
 }
@@ -674,6 +736,12 @@ body {
 .footer__container {
   padding: 15rem 1.2rem;
   padding-bottom: 3rem;
+}
+@media only screen and (min-width: 600px) {
+  .footer__container {
+    padding: 15rem 2rem;
+    padding-bottom: 3rem;
+  }
 }
 .footer__location {
   display: flex;
@@ -689,6 +757,11 @@ body {
   margin-top: 0;
   margin-left: 1.3rem;
   width: 80%;
+}
+@media only screen and (min-width: 600px) {
+  .footer__location-desc {
+    width: 50%;
+  }
 }
 .footer__contact-phone-icon, .footer__contact-email-icon {
   position: relative;

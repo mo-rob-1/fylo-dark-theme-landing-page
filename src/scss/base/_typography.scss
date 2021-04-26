@@ -51,6 +51,9 @@
   font-family: $primaryFont;
   line-height: 1.6;
   font-size: 0.9rem;
+  @include responsive(tablet) {
+    font-size: 0.8rem;
+  }
 }
 
 .cta__title,
@@ -59,11 +62,18 @@
 }
 .cta__title {
   font-family: $secondaryFont;
+  @include responsive(tablet) {
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
 }
 .cta__desc {
   font-family: $primaryFont;
   font-size: 0.9rem;
   line-height: 1.6;
+  @include responsive(tablet) {
+    font-size: 0.8rem;
+  }
 }
 .cta__link {
   font-family: $primaryFont;
@@ -82,6 +92,9 @@
 }
 .sign-up__title {
   font-family: $secondaryFont;
+  @include responsive(tablet) {
+    font-size: 1.5rem;
+  }
 }
 .sign-up__desc {
   font-family: $primaryFont;

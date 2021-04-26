@@ -8,6 +8,10 @@
   &__main-review-container {
     display: grid;
     gap: 2rem;
+    @include responsive(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
   }
   &__review-container {
     background-color: $dark-blue-testimonial-bg;

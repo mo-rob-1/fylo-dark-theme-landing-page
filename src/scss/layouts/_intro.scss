@@ -10,6 +10,7 @@
     @include responsive(tablet) {
       margin: 0 auto;
       max-width: 400px;
+      // padding: 3rem;
     }
   }
   &__image {

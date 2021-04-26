@@ -13,6 +13,10 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
     top: 13rem;
+    @include responsive(tablet) {
+      margin: 0 auto;
+      max-width: 450px;
+    }
   }
   &__title {
     margin-top: 0;

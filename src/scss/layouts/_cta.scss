@@ -4,10 +4,26 @@
   background-color: $dark-blue-main-bg;
   &__container {
     padding: 6rem 1.2rem;
+    @include responsive(tablet) {
+      padding: 5rem 2rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      gap: 2rem;
+    }
+  }
+  &__image-container {
+    @include responsive(tablet) {
+      display: grid;
+      align-self: center;
+    }
   }
   &__image {
     width: 100%;
     margin-bottom: 2.2rem;
+    @include responsive(tablet) {
+      margin-bottom: 0;
+    }
   }
   &__link-container {
     display: inline;
