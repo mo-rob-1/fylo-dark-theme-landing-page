@@ -4,6 +4,10 @@
   background-color: $dark-blue-main-bg;
   &__container {
     padding: 4rem 2.4rem 0.1rem 2.4rem;
+    @include responsive(laptop) {
+      margin: 0 auto;
+      max-width: 900px;
+    }
   }
   &__main-review-container {
     display: grid;
@@ -11,6 +15,11 @@
     @include responsive(tablet) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
+    }
+    @include responsive(laptop) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
     }
   }
   &__review-container {

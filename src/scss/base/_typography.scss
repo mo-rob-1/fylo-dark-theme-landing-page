@@ -28,6 +28,9 @@
   @include responsive(tablet) {
     max-width: 350px;
   }
+  @include responsive(laptop) {
+    max-width: 400px;
+  }
 }
 
 .intro__btn,

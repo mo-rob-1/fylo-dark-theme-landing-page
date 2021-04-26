@@ -17,4 +17,9 @@
 .sign-up__btn {
   width: 100%;
   margin-top: 1.4rem;
+  @include responsive(laptop) {
+    margin-top: 0;
+    margin-left: 1rem;
+    width: 50%;
+  }
 }
