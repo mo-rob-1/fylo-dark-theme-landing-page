@@ -483,6 +483,11 @@ body {
     width: 86%;
   }
 }
+@media only screen and (min-width: 1920px) {
+  .cta__desc {
+    width: 76%;
+  }
+}
 
 .cta__link {
   font-family: "Open Sans", sans-serif;
@@ -872,12 +877,12 @@ body {
 }
 @media only screen and (min-width: 1440px) {
   .footer__contact {
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
 }
 @media only screen and (min-width: 1920px) {
   .footer__contact {
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
 }
 .footer__contact-phone-icon, .footer__contact-email-icon {
@@ -930,6 +935,7 @@ body {
   .footer__nav-container {
     display: flex;
     align-items: initial;
+    justify-content: center;
   }
 }
 @media only screen and (min-width: 1024px) {

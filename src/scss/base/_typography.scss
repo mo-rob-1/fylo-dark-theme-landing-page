@@ -99,6 +99,9 @@
     font-size: 0.9rem;
     width: 86%;
   }
+  @include responsive(desktop) {
+    width: 76%;
+  }
 }
 .cta__link {
   font-family: $primaryFont;
