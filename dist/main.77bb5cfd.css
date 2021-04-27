@@ -718,7 +718,7 @@ body {
   text-align: center;
   padding: 6rem 1.2rem 3rem 1.2rem;
   display: grid;
-  grid-row-gap: 6rem;
+  grid-row-gap: 4rem;
 }
 @media only screen and (min-width: 600px) {
   .features__container {
