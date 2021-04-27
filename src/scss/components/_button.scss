@@ -9,6 +9,11 @@
   cursor: pointer;
 }
 
+.intro__btn:hover,
+.sign-up__btn:hover {
+  background-image: linear-gradient(to right, hsl(176, 100%, 79%), hsl(198, 64%, 63%));
+}
+
 .intro__btn {
   width: 16rem;
   margin-top: 1.8rem;
@@ -21,5 +26,6 @@
     margin-top: 0;
     margin-left: 1rem;
     width: 50%;
+    font-size: 0.8rem;
   }
 }

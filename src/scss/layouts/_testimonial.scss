@@ -6,7 +6,10 @@
     padding: 4rem 2.4rem 0.1rem 2.4rem;
     @include responsive(laptop) {
       margin: 0 auto;
-      max-width: 900px;
+      max-width: 1000px;
+    }
+    @include responsive(laptop-lg) {
+      max-width: 1300px;
     }
   }
   &__main-review-container {
@@ -27,6 +30,9 @@
     padding: 1.6rem;
     border-radius: 0.4rem;
     z-index: 1;
+    @include responsive(laptop-lg) {
+      padding: 2.4rem;
+    }
   }
   &__review {
     margin: 0;
@@ -55,5 +61,11 @@
     position: relative;
     top: 0.4rem;
     left: 0.6rem;
+    @include responsive(laptop) {
+      width: 50px;
+      position: relative;
+      top: 0.8rem;
+      left: -0.5rem;
+    }
   }
 }

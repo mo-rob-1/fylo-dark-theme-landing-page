@@ -375,6 +375,11 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
 }
+@media only screen and (min-width: 1440px) {
+  .intro__heading {
+    font-size: 2rem;
+  }
+}
 
 .intro__paragraph {
   font-family: "Open Sans", sans-serif;
@@ -391,6 +396,12 @@ body {
 @media only screen and (min-width: 1024px) {
   .intro__paragraph {
     max-width: 400px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .intro__paragraph {
+    max-width: 500px;
+    font-size: 0.9rem;
   }
 }
 
@@ -423,6 +434,11 @@ body {
     font-size: 0.8rem;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .features__desc {
+    font-size: 0.9rem;
+  }
+}
 
 .cta__title,
 .cta__desc {
@@ -438,6 +454,17 @@ body {
     line-height: 1.4;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .cta__title {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .cta__title {
+    width: 60%;
+    font-size: 2rem;
+  }
+}
 
 .cta__desc {
   font-family: "Open Sans", sans-serif;
@@ -447,6 +474,12 @@ body {
 @media only screen and (min-width: 600px) {
   .cta__desc {
     font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .cta__desc {
+    font-size: 0.9rem;
+    width: 90%;
   }
 }
 
@@ -459,6 +492,11 @@ body {
   color: white;
   font-size: 0.8rem;
   line-height: 1.8;
+}
+@media only screen and (min-width: 1440px) {
+  .testimonial__review-container {
+    font-size: 0.9rem;
+  }
 }
 
 .sign-up__title,
@@ -480,6 +518,11 @@ body {
   font-size: 0.8rem;
   line-height: 1.6;
 }
+@media only screen and (min-width: 1440px) {
+  .sign-up__desc {
+    font-size: 0.9rem;
+  }
+}
 
 .footer__container {
   font-family: "Open Sans", sans-serif;
@@ -489,6 +532,25 @@ body {
 
 .footer__location-desc {
   line-height: 1.6;
+}
+
+.footer__author {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6rem;
+}
+
+.footer__author a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__author a:hover {
+  text-decoration: underline;
 }
 
 .footer__contact-phone-number,
@@ -525,6 +587,15 @@ body {
     padding-top: 2.5rem;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .header__container {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 3rem;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
 .header__nav-list {
   padding: 0;
   align-items: center;
@@ -538,6 +609,11 @@ body {
 @media only screen and (min-width: 375px) {
   .header__nav-list {
     gap: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header__nav-list {
+    gap: 2rem;
   }
 }
 .header__nav-link {
@@ -570,10 +646,26 @@ body {
   background-position: bottom;
   background-size: 200% 570px;
 }
+@media only screen and (min-width: 1440px) {
+  .intro {
+    background-image: url("/bg-curvy-desktop.b3534639.svg");
+    background-size: 200% 770px;
+  }
+}
 @media only screen and (min-width: 600px) {
   .intro__image-container {
     margin: 0 auto;
     max-width: 400px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .intro__image-container {
+    max-width: 500px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .intro__image-container {
+    max-width: 700px;
   }
 }
 .intro__image {
@@ -608,6 +700,11 @@ body {
     max-width: 500px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .intro__desc-container {
+    max-width: 700px;
+  }
+}
 
 .features {
   background-color: #181f2a;
@@ -631,8 +728,13 @@ body {
 @media only screen and (min-width: 1024px) {
   .features__container {
     margin: 0 auto;
-    max-width: 700px;
-    grid-column-gap: 6rem;
+    max-width: 800px;
+    grid-column-gap: 10rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .features__container {
+    max-width: 1000px;
   }
 }
 
@@ -655,8 +757,13 @@ body {
   .cta__container {
     padding: 3rem 2rem;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1000px;
     gap: 4rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .cta__container {
+    max-width: 1300px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -695,7 +802,12 @@ body {
 @media only screen and (min-width: 1024px) {
   .testimonial__container {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1000px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .testimonial__container {
+    max-width: 1300px;
   }
 }
 .testimonial__main-review-container {
@@ -720,6 +832,11 @@ body {
   padding: 1.6rem;
   border-radius: 0.4rem;
   z-index: 1;
+}
+@media only screen and (min-width: 1440px) {
+  .testimonial__review-container {
+    padding: 2.4rem;
+  }
 }
 .testimonial__review {
   margin: 0;
@@ -749,6 +866,14 @@ body {
   top: 0.4rem;
   left: 0.6rem;
 }
+@media only screen and (min-width: 1024px) {
+  .testimonial__quote-icon {
+    width: 50px;
+    position: relative;
+    top: 0.8rem;
+    left: -0.5rem;
+  }
+}
 
 .sign-up {
   background-color: #181f2a;
@@ -773,8 +898,15 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .sign-up__container {
-    max-width: 650px;
+    max-width: 700px;
     padding: 3rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .sign-up__container {
+    max-width: 800px;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
 .sign-up__title {
@@ -806,6 +938,14 @@ body {
   .footer__container {
     padding: 15rem 3rem;
     padding-bottom: 0.1rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer__container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 15rem 7rem;
+    padding-bottom: 0;
   }
 }
 .footer__location {
@@ -840,6 +980,11 @@ body {
   .footer__contact {
     margin-bottom: 0;
     margin-left: 1.3rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer__contact {
+    margin-left: 3rem;
   }
 }
 .footer__contact-phone-icon, .footer__contact-email-icon {
@@ -928,6 +1073,11 @@ body {
   cursor: pointer;
 }
 
+.intro__btn:hover,
+.sign-up__btn:hover {
+  background-image: linear-gradient(to right, #94fff8, #64b9dd);
+}
+
 .intro__btn {
   width: 16rem;
   margin-top: 1.8rem;
@@ -942,6 +1092,7 @@ body {
     margin-top: 0;
     margin-left: 1rem;
     width: 50%;
+    font-size: 0.8rem;
   }
 }
 
@@ -950,10 +1101,15 @@ body {
   font-size: 0.8rem;
   text-decoration: none;
 }
+@media only screen and (min-width: 1440px) {
+  .cta__link {
+    font-size: 1rem;
+  }
+}
 
 .sign-up__input {
   font-family: "Open Sans", sans-serif;
-  padding: 0.8rem;
+  padding: 0.8rem 2rem;
   border: none;
   border-radius: 2rem;
   width: 100%;
@@ -968,6 +1124,12 @@ body {
   border: 1px solid white;
   border-radius: 100%;
   padding: 0.6rem;
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: #65e2d9;
+  border: 1px solid #65e2d9;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

@@ -14,8 +14,11 @@
     @include responsive(laptop) {
       padding: 3rem 2rem;
       margin: 0 auto;
-      max-width: 900px;
+      max-width: 1000px;
       gap: 4rem;
+    }
+    @include responsive(laptop-lg) {
+      max-width: 1300px;
     }
   }
   &__image-container {

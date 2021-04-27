@@ -4,4 +4,7 @@
   color: $cyan-cta;
   font-size: 0.8rem;
   text-decoration: none;
+  @include responsive(laptop-lg) {
+    font-size: 1rem;
+  }
 }

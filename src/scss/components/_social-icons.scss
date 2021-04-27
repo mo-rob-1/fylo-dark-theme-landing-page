@@ -4,4 +4,9 @@
   border: 1px solid $white;
   border-radius: 100%;
   padding: 0.6rem;
+  cursor: pointer;
+}
+.fab:hover {
+  color: $cyan-cta;
+  border: 1px solid $cyan-cta;
 }

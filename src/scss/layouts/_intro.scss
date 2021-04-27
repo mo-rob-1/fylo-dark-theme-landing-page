@@ -6,10 +6,20 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 200% 570px;
+  @include responsive(laptop-lg) {
+    background-image: url("/images/bg-curvy-desktop.svg");
+    background-size: 200% 770px;
+  }
   &__image-container {
     @include responsive(tablet) {
       margin: 0 auto;
       max-width: 400px;
+    }
+    @include responsive(laptop) {
+      max-width: 500px;
+    }
+    @include responsive(laptop-lg) {
+      max-width: 700px;
     }
   }
   &__image {
@@ -38,6 +48,9 @@
     @include responsive(tablet) {
       margin: 0 auto;
       max-width: 500px;
+    }
+    @include responsive(laptop-lg) {
+      max-width: 700px;
     }
   }
 }
