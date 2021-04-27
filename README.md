@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot]()
+![Screenshot](https://github.com/mo-rob-1/fylo-dark-theme-landing-page/blob/main/src/images/screenshot.png)
 
 ### Links
 
