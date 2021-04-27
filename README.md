@@ -34,7 +34,7 @@ Users should be able to:
 
 - HTML5
 - Sass - 7-1 Folder Structure
-- Parcel
+- Parcel Bundler
 - BEM
 - Flexbox
 - CSS Grid
