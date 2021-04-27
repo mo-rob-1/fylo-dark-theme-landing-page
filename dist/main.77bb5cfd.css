@@ -447,6 +447,7 @@ body {
 
 .cta__title {
   font-family: "Raleway", sans-serif;
+  line-height: 1.5;
 }
 @media only screen and (min-width: 600px) {
   .cta__title {
@@ -1155,6 +1156,11 @@ body {
 .fab:hover {
   color: #65e2d9;
   border: 1px solid #65e2d9;
+}
+
+.fa-facebook-f {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

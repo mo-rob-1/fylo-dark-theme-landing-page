@@ -75,6 +75,7 @@
 }
 .cta__title {
   font-family: $secondaryFont;
+  line-height: 1.5;
   @include responsive(tablet) {
     font-size: 1.7rem;
     line-height: 1.4;
