@@ -13,10 +13,10 @@
   &__image-container {
     @include responsive(tablet) {
       margin: 0 auto;
-      max-width: 400px;
+      max-width: 500px;
     }
     @include responsive(laptop) {
-      max-width: 500px;
+      max-width: 600px;
     }
     @include responsive(laptop-lg) {
       max-width: 700px;

@@ -11,6 +11,9 @@
     @include responsive(laptop-lg) {
       max-width: 1300px;
     }
+    @include responsive(desktop) {
+      max-width: 1500px;
+    }
   }
   &__main-review-container {
     display: grid;

@@ -20,6 +20,9 @@
     @include responsive(laptop-lg) {
       max-width: 1300px;
     }
+    @include responsive(desktop) {
+      max-width: 1500px;
+    }
   }
   &__image-container {
     @include responsive(tablet) {

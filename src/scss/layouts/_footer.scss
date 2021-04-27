@@ -19,6 +19,9 @@
       padding: 15rem 7rem;
       padding-bottom: 0;
     }
+    @include responsive(desktop) {
+      max-width: 1640px;
+    }
   }
   &__location {
     display: flex;
@@ -49,6 +52,9 @@
     }
     @include responsive(laptop-lg) {
       margin-left: 3rem;
+    }
+    @include responsive(desktop) {
+      margin-left: 5rem;
     }
   }
   &__contact-phone-icon,

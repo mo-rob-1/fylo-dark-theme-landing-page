@@ -22,6 +22,9 @@
       margin: 0 auto;
       max-width: 1440px;
     }
+    @include responsive(desktop) {
+      max-width: 1640px;
+    }
   }
   &__nav-list {
     padding: 0;
